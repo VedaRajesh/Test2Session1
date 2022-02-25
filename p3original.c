@@ -9,7 +9,7 @@ int input_number()
 int is_composite(int n)
 {
     int i,composite;
-    for(i=1;i<n/2;i++)
+    for(i=2;i<n/2;i++)
     {
         if(n%i==0)
         {
@@ -23,7 +23,7 @@ int is_composite(int n)
      if(composite==1)
      printf("%d IS COMPOSITE NUMBER",n);
      else 
-     printf("%d IS NOT COMPOSITE NUMBER",n);
+     printf("%d IS PRIME NUMBER",n);
 
  }
  int main()
