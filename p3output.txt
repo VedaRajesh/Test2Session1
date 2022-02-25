@@ -1,1 +1,8 @@
+clang version 7.0.0-3~ubuntu0.18.04.1 (tags/RELEASE_700/final)
+ gcc -g p3original.c
+ ./a.out
+ENTER YOUR NUMBER
+5
+5 IS COMPOSITE NUMBER 
+
 
